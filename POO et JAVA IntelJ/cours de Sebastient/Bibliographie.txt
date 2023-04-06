@@ -1,0 +1,21 @@
+---------------SPRING BOOT---------------
+
+Gutierrez, F. (2016). Pro Spring Boot. 
+
+Scarioni, C. (2013). Pro Spring Security.
+
+Hands-on Application Development using Spring Boot: Building Modern Cloud Native Applications by Learning RESTFul API, Microservices, CRUD Operations, Unit Testing, and Deployment (English Edition). (2021). (n.p.): BPB Publications.
+
+Musib, S. (2022). Spring Boot in Practice. États-Unis: Manning.
+
+-------------CONCEPTION--------------
+Martin, R. C. (2009). Coder proprement. France: Pearson.
+Martin, R. C. (2020). Architecture logicielle propre. France: Pearson.
+
+------------Design pattern----------
+Debrauwer, L. (2009). Design patterns pour Java: Les 23 modèles de conception : descriptions et solutions illustrées en UML 2 et Java. France: Editions ENI.
+
+------------DDD----------------
+Nair, V. (2019). Practical Domain-Driven Design in Enterprise Java: Using Jakarta EE, Eclipse MicroProfile, Spring Boot, and the Axon Framework. Allemagne: Apress.
+
+Vernon, V. (2013). Implementing Domain-Driven Design. Royaume-Uni: Pearson Education.
