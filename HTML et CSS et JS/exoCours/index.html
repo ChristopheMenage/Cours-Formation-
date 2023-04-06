@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactions</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Hello</h1>
+  <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, quia ipsa. Quam quod quas dolorum ducimus dolores esse dolor! Expedita iusto dolorem doloribus aperiam quaerat, esse quasi veritatis aliquam suscipit!</p>
+
+  <button>Cliquez ici</button>
+
+  <ul id="list">
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+  </ul>
+
+  <script>
+    //remplacer du texte sur le h1
+    document.querySelector('h1').textContent = 'Bonjour';
+
+    //remplacer le texte du paragraphe avec une partie du text en gras
+    document.querySelector('p').innerHTML='Bonjour <strong> bonne journée ! </strong>'
+
+
+
+    //but : qd on clique sur le boutton la liste s'ffaiche ou se masque
+        //1ere etape : la selection du button et ul
+            let btnElt = document.querySelector('button');
+            let listElt = document.querySelector('ul#list');
+
+        //2eme etape :  déclarer la fuction qui sera appelée
+            //ajouter/retirer la class CSS
+            function showOrHideList(){
+                listElt.classList.toggle('hide');
+            }
+            
+            //ajouter/retirer la classe mise ds le CSS (.hide)
+
+        //3eme etape :je pose l'écouteur 
+        btnElt.addEventListener('click',showOrHideList);
+
+        /**********************************/
+        //je pose un ecouteur d'ev sur une collection d'elemts
+
+        function  setColorBlue(event){
+            // dans une fonction appelée par un évènement, this  VAUT l'élément HTML sur lequel l'evenement a été  déclenché
+            console.log(event);
+            this.classList.add('blue');
+        }  
+
+
+        let itemsElmts = document.querySelectorAll('ul#list li');
+        for(let item of itemsElmts){
+            item.addEventListener('click', setColorBlue);
+        }
+
+  </script>
+  
+</body>
+</html>
