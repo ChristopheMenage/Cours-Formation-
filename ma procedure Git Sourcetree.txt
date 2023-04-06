@@ -1,0 +1,26 @@
+MARCHE A SUiVRE pour pouvoir échanger les source avec l'équipe (Stéphanie)
+
+1 - En Locale j'ai créé Mon  répertoire de travail (là où je vais enregistrer mes sources
+
+2 - Sur SourceTree :
+		- Création du nouvel onglet : On indique le répertoire Git de la source ET mon répertoire de travail.
+		
+
+------------------------------
+Récupéré les éléments la toute première fois
+3  Via SourceTree, se mettre sur le bon PJ (onglet) et faire un PULL
+
+------------------------
+Pousser pour la première fois mon composant Cineteque
+
+En pré requis, j'ai copié mes source de mon ancien répertoire Dans le répertoire de travail défini a l'intialisation de l'onglet dans SourceTree.
+
+Nota : penser a la création du fichier Gitignore qui référence les fichiers a ne pas prendre en compte dans les actions comme par exemple les fichiers de IntelJ les Jar etc etc
+
+4 - Via SourceTree :
+		- Dans la partie "Unstaged File" ==> Sélectionner les fichiers que nous souhaitons remonter (ICI pour la première fois j'ai tout sélectionné
+		- Faire le Commit :
+				Analyse des conflits et actions nécessaires, Ici pour la 1ere fois il n'y a pas eu de conflit Normale :)
+				Conflits réglés je passe a l'étape suivante
+		- Faire le Push:
+				=> A cet instant, la version Pushée (sur répertoire Git) est désormais disponible pour toute l'équipe  
